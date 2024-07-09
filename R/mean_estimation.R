@@ -57,6 +57,7 @@ asymptotic_variance <- function(labeled_data_Y,
 #' @param labeled_data_Y a vector of binary outcomes (treated as ground-truth labels)
 #' @param labeled_data_predictions a vector of predicted binary outcomes (from e.g. an LLM) for the labeled data
 #' @param unlabeled_data_predictions a vector of predicted binary outcomes for corresponding unlabeled data
+#' @export
 #' @return a list containing the point estimate, standard error, and confidence interval. The mean of the labeled data alone is also returned.
 ppi_mean <- function(labeled_data_Y,
                      labeled_data_predictions,
