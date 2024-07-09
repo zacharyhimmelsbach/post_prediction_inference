@@ -1,3 +1,5 @@
+<img src="images/lab_logo.jpg" alt="lab_logo" width="200"/>
+
 # Post-Prediction Inference (PPI) Package
 
 ## Introduction
@@ -51,5 +53,3 @@ results <- ppi_mean(human_labeled_data_true_labels,
 # Display results
 print(results)
 ```
-
-![lab_logo](images/lab_logo.jpg) 
