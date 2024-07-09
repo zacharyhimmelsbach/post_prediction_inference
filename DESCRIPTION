@@ -1,0 +1,11 @@
+Package: ppi
+Title: Implements Post-prediction Inference procedures for estimation with a mixture of human-labeled and AI-labeled data
+Version: 0.0.0.9000
+Authors@R: 
+    person("Zachary", "Himmelsbach", , "zacharyhimmelsbach@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-5444-0648"))
+Description: PPI provides functions for a variety of post-prediction inference tasks. These functions provide unbiased estimation when using a mixture of human-labeled and AI-labeled binary outcome data, where the human-labeled data are considered "ground-truth". 
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
